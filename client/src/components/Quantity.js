@@ -52,9 +52,9 @@ const Quantity = ({ todo }) => {
 
  return (
   <>
-    <button onClick={() => decrementCount(todo.todo_id)}>-</button>
+    <button onClick={() => decrementCount(count)}>-</button>
     <span>{count}</span>
-    <button onClick= {() => incrementCount(todo.todo_id)}>+</button>
+    <button onClick= {() => incrementCount(count)}>+</button>
     </> 
   )
   }
