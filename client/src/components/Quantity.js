@@ -54,7 +54,7 @@ const Quantity = ({ todo }) => {
   <>
     <button onClick={() => decrementCount(todo.todo.id)}>-</button>
     <span>{count}</span>
-    <button onClick= {() => incrementCount(count)}>+</button>
+    <button onClick= {() => incrementCount(todo.todo.id)}>+</button>
     </> 
   )
   }
